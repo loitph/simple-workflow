@@ -1,0 +1,22 @@
+name: LoiTPH first Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 1. Check out repository
+      uses: actions/checkout@v2
+
+    - name: 2. Use Node.js 18
+      uses: action/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: 3. Print a message
+      run: echo "Yoooo Loi!"
