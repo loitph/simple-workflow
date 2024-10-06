@@ -1,22 +1,22 @@
-name: LoiTPH first Workflow
+name: My First Workflow
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 1. Check out repository
+    - name: Check out repository
       uses: actions/checkout@v3
 
-    - name: 2. Use Node.js 20
-      uses: action/setup-node@v3
+    - name: Use Node.js 18
+      uses: actions/setup-node@v3
       with:
-        node-version: 20
+        node-version: 18
 
-    - name: 3. Print a message
-      run: echo "Yoooo Loi!"
+    - name: Print a message
+      run: echo "Hello, world!"
