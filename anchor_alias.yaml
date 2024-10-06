@@ -1,0 +1,11 @@
+default_setting: &settings
+  timeout: 30
+  retries: 3
+
+api:
+  <<: *settings
+  endpoint: https://api.example.com
+
+database:
+  <<: *settings
+  host: db.example.com

@@ -1,0 +1,6 @@
+project:
+  name: AwesomeApp
+  version: 1.0.0
+  languages:
+    - Python
+    - JavaScript

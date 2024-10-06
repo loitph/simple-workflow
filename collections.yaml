@@ -1,0 +1,11 @@
+# Sequence (list)
+supported_os:
+  - Windows
+  - macOS
+  - Linux
+
+# Mapping (dictionary)
+team_lead:
+  name: Jane Smith
+  role: Senior Developer
+  department: Engineering
