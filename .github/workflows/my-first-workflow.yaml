@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: 1. Check out repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: 2. Use Node.js 18
       uses: action/setup-node@v3
